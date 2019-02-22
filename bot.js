@@ -5,11 +5,10 @@ const prefix = "$";
 // ========================================== [ CONSTRUCTERS ] =========================================
 
 client.on("ready", async() => {
-    client.user.setGame("Loading...");
+    client.user.setGame("L E G E N D A R Y");
 console.log(`Back Online In ${client.guilds.size} Servers!`);
-console.log(`https://discordapp.com/oauth2/authorize?client_id=${client.user.id}&scope=bot&permissions=8\nInvite Me To Your Server!`);
     setTimeout(() => {
-        client.user.setActivity(`${prefix}اعلانات مدفوعة`, {type: "WATCHING"});
+        client.user.setActivity(`L E G E N D A R Y`, {type: "WATCHING"});
     }, 3000);
 });
 
